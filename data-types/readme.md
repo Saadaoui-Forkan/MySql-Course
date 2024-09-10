@@ -20,14 +20,14 @@ Year              ==> YYYY | YY
 3. String
 ```
 Char => Character
-- Store Fixed Values
+- Store Fixed Values (like Id)
 - Max Characters 255
 - Faster Than VarChar 50%
 - Use Static Memory
 
 VarChar => Variable Character
-- Store Variable Value
-- Max Characters For MySQL 5.0.3+ = 65.535
+- Store Variable Value (like comments)
+- Max Characters For MySQL (version 5.0.3+ = 65.535)
 - Slower Than Char
 - Use Dynamic Memory
 
